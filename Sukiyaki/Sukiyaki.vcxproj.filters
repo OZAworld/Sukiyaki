@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Class">
+      <UniqueIdentifier>{3ed6ca93-7ea1-40c6-a870-4ff2f94e0701}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{7c12b8b8-8abd-4246-b427-588d08c7c3aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class\App">
+      <UniqueIdentifier>{c452f9bf-5e82-431c-b87a-6c4f838d4a18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class\Debug">
+      <UniqueIdentifier>{66978034-6fc8-48ec-9ea1-aabe56fd2f96}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App.cpp">
+      <Filter>Class\App</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug.cpp">
+      <Filter>Class\Debug</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App.h">
+      <Filter>Class\App</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib.h">
+      <Filter>Class</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug.h">
+      <Filter>Class\Debug</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
